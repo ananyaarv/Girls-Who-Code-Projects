@@ -1,0 +1,156 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: burlywood; 
+ text-align: center;
+ font-size: 25px;
+ color: white;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 0 0 20px 0; 
+}
+
+h2 {
+  color: white;
+  text-align: center; 
+  font-size: 50px;
+  margin: 0 0 20px 0; 
+}
+
+h3 {
+  margin: 0 0 20px 0; 
+  color: #5E2C04
+}
+
+/* STYLE IMAGES */
+img { 
+  margin-bottom: 2em; 
+} 
+div {
+  text-align: center;
+}
+
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: burlywood;
+  overflow: hidden;
+  padding: 1em;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: tan; 
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 90px;
+  margin-right: 0;
+  text-align:left;
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+
+  header {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%; 
+}
+
+.genFact { 
+  background: white;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 35px;
+  margin-left: 28%;
+  margin-right: 35%;
+
+  font-family: 'Times New Roman', Times, serif;
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2cm;
+  color: #5E2C04; 
+}
+
+.fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2cm;
+  text-align: center;
+  line-height: 1.2cm;
+  color: tan;
+}
+
+.scriptQues {
+  background: white;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+
+  font-size: 15px;
+  text-align: center;
+  line-height: 1cm;
+  color: #5E2C04; 
+}

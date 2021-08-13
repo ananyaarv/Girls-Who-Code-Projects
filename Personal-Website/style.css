@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.cool{
+  color: black;
+  line-height: 1em;
+  word-spacing: 5px;
+}
+
+#me {
+  border-radius: 10%;
+}
+
+#mad {
+  border-radius: 10%;
+}
+
+#ms {
+  border-radius: 10%;
+}
+
+#py {
+  border-radius: 10%;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: rgba(235, 183, 135, 0.993); 
+ font-family: 'Arial', sans-serif;
+ color: black;
+ text-align: center;
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+header {
+  background-color: peachpuff;
+  font-family: 'Georgia', serif;
+  font-size: 23px;
+  padding: 3%;
+}
+
+p {
+  color: black;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-family: 'Georgia', serif;
+  padding-top: 2en;
+  padding-bottom: 3en;
+}
+
+h3 {
+  color: white; 
+  font-family: 'Georgia', serif;
+}
+
+h4 {
+  color: white;
+  font-family: 'URW Chancery L', cursive;
+  font-size: 20px 
+}
+
+/* STYLE IMAGES */
+
+img {
+  border-radius: 50%; 
+  border: 3px solid white;
+  margin-bottom: 2em; 
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: white;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: salmon;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: grey; 
+}
